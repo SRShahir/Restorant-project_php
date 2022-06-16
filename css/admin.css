@@ -1,0 +1,171 @@
+/* 
+    Author: Shreya Shahir;
+    Theme: Food Order Website Admin;
+    Version: 1.0;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+.tbl-30 {
+    width: 30%;
+}
+
+.border-padding {
+    border-bottom: 1px solid black;
+    padding: 1%;
+
+}
+
+table tr {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: center;
+    /* text-align: left; */
+}
+
+th {
+    padding: 10px;
+}
+
+table tr td {
+    padding: 1%;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #1e90ff;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.btn-primary:hover {
+    background-color: #3742fa;
+}
+
+.btn-secondary {
+    background-color: #02ff6c;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.mr-2 {
+    margin-right: 2px;
+}
+
+.p-4 {
+    padding: 4px;
+}
+
+.btn-secondary:hover {
+    background-color: #5cbf7d;
+}
+
+
+.btn-danger {
+    background-color: #da2e48;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+.btn-danger:hover {
+    background-color: #7e2228;
+}
+
+.success {
+    color: #2ed573;
+}
+
+.error {
+    color: #ff4757;
+}
+
+
+/* CSS for Menu */
+.menu {
+    /* text-align: center; */
+    border-bottom: 1px solid grey;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover {
+    color: #cd676e;
+}
+
+/* CSS for main-content */
+.main-content {
+    /* margin: 1% 0; */
+    background-color: #f1f2f6;
+    padding: 3% 0;
+    min-height: 75vh;
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/* CSS for Footer */
+.footer {
+    background-color: #ff4757;
+    color: white;
+}
+
+/* CSS for Login */
+.login {
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
